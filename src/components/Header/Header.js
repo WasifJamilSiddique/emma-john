@@ -8,8 +8,8 @@ const Header = () => {
     return (
         <div className="text-center">
             <img className="img-fluid w-25" src={logo} alt=""/>
-            <nav className="navbar navbar-expand-lg navbar-dark lead bg-dark">
-                <a href="">
+            <nav className="navbar navbar-expand-lg lead">
+                <a href="/">
                     <img className="img-brand" src={logo} alt=""/>
                 </a>
                 <ul className="navbar-nav">
