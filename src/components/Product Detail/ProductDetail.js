@@ -1,8 +1,8 @@
 
 import React from 'react';
 import {useParams} from 'react-router-dom';
-import fakeData from '../fakeData';
-import Product from '.././components/Product/Product';
+import fakeData from '../../fakeData';
+import Product from '../Product/Product';
 
 const ProductDetail = () => {
     const {productKey} = useParams(); // getting the key through react router dom

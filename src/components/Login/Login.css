@@ -1,0 +1,17 @@
+
+.continue-gmail{
+    background-color: rgb(146, 52, 46);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(146, 52, 46);
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 2px;
+}
+
+.sign-out{
+    color: #fff;
+    background-color: #dc3545;
+    border: 1px solid;
+    border-color: #dc3545;
+    padding: 5px;
+}

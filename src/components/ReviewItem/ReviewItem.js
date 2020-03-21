@@ -9,13 +9,14 @@ const product = {
 }
 
 const ReviewItem = (props) => {
-    const {name, quantity, key} = props.product;
+    const {name, quantity, key, price} = props.product;
     return (
         <div style={product}>
             <h4>{name}</h4>
             <p style={{color:"black"}}>Quantity: {quantity}</p>
+            <p><small>{price}</small></p>
             <br/>
-            <button onClick={() => props.removeProduct(key)} style={{marginBottom: "10px"}} className="main-button">Remove Item</button>
+            <button onClick={() => props.removeProduct(key)} style={{marginBottom: "10px"}} className="main-button">Remove</button>
         </div>
     );
 };
